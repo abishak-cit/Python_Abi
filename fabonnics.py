@@ -1,4 +1,4 @@
-N = int(input("Enter the N:"))
+N = int(input())
 fact=1
 if(N<=20):
 for i in range(1,N+1):
