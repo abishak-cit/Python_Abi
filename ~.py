@@ -1,2 +1,4 @@
 N = int(input())
-print(~N)
+L,M = map(int,(input().split()))
+a = (L | M)
+print(a)
