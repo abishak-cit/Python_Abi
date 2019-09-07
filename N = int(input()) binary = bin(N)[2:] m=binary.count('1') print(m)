@@ -1,0 +1,4 @@
+N = int(input())
+binary = bin(N)[2:]
+m=binary.count('1')
+print(m)
