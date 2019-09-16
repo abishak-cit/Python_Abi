@@ -1,0 +1,8 @@
+N=int(input())
+S=input().split()
+sum=0
+for i in S:
+    i=int(i)
+    if(i < 0):
+       sum+=i
+print(sum)
