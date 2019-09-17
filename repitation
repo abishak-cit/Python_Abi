@@ -1,0 +1,5 @@
+N,K=map(int,input().split())
+S=[int(x) for x in input().split()]
+if(N==len(S)):
+    g=S.count(K)
+    print(g-1)
