@@ -1,0 +1,11 @@
+s=input()
+l=len(s)
+lst=[]
+lst1=[]
+for i in range(0,l):
+    if (i%2==0):
+        lst.append(s[i])
+    else:
+        lst1.append(s[i])
+print(*lst,' ',*lst1,sep="")
+    
