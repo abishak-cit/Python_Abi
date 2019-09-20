@@ -1,0 +1,10 @@
+n=int(input())
+s=input().split()
+lst=[]
+if n==len(s):
+    count=0
+    for i in range(0,n):
+        count=count+int(s[i])
+        
+        lst.append(count)
+print(*lst[::-1])
